@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: lightgray;
+}
+body {
+    background: #111111;
+}
+#namePerson {
+    background: #000;
+    position: absolute;
+    top: 40px;
+}
+#add, .beginGame, .stopGame{
+    position: absolute;
+    top: 40px; 
+    left: 180px;
+    background: #000;
+    color: gray;
+    width: 50px;
+}
+.beginGame, .stopGame {
+    left: 240px;
+}
+.ul {
+    position: absolute;
+    top: 100px;
+}
+.ul .names {
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 35px;
+    color: lightgray;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.disabled {
+    display: none;
+}
+.divs {
+    position: absolute;
+    margin-top: -30px;
+    left: 120px;
+    display: flex;
+}
+.minus-btn {
+    padding-bottom: 10px;
+    margin-top: -33px;
+    margin-left: 140px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 5px solid rgb(99, 99, 99);
+    background: rgb(68, 68, 68);
+    font-size: 2.3rem;
+}
+.show {
+    background: #000;
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    height: 510px;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.3rem;
+}
+.remove {
+    display: none;
+}
+.sh {
+    display: flex;
+}
+.all {
+    width: 200px;
+    height: 50px;
+}
+.items {
+    width: 250px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.title {
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+.content {
+    font-size: 18px;
+}
+.info {
+    position: absolute;
+    top: 40px;
+    right: 150px;
+    width: 200px;
+    height: 510px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#stena {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    width: 180px;
+    height: 520px;
+    background: #000;
+    opacity: 0.5;
+    z-index: 100;
+    display: block;
+}
